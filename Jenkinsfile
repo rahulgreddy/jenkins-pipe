@@ -3,7 +3,7 @@ node {
     git 'https://github.com/rahulgreddy/jenkins-pipe.git'
 }
          stage('build') {
-    echo $helloworld.py
+    echo "helloworld"
 }
         stage('deploy') {
     echo " hi rahul"
