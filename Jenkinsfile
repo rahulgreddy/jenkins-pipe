@@ -1,6 +1,7 @@
+#!grovvy
 node {
          stage('presentation') {
-    git 'https://github.com/rahulgreddy/jenkins-pipe.git'
+    checkout scm
 }
          stage('build') {
     echo "helloworld"
