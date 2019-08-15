@@ -1,9 +1,9 @@
 node {
          stage('presentation') {
-    
+    git 'https://github.com/rahulgreddy/jenkins-pipe.git'
 }
          stage('build') {
-    echo "helloworld"
+    echo $helloworld.py
 }
         stage('deploy') {
     echo " hi rahul"
